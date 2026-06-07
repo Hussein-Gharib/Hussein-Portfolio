@@ -24,7 +24,7 @@ function Contact() {
         </p>
 
         <div className="contact-links">
-          <a href="mailto:YOUR_EMAIL_HERE">
+          <a href="mailto:gharibhu55@gmail.com">
             <FaEnvelope />
             Email Me
           </a>
