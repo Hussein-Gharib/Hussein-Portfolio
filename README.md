@@ -4,7 +4,7 @@ A personal portfolio website built with React, Vite, and CSS to showcase my full
 
 ## Live Demo
 
-Coming soon
+https://hussein-portfolio-drab.vercel.app/
 
 ## About
 
@@ -12,33 +12,34 @@ This portfolio presents my work as a Junior Full Stack Web Developer based in Ge
 
 ## Features
 
-* Modern dark theme design
-* Responsive layout for desktop and mobile
-* Smooth animations with Framer Motion
-* Animated background
-* Skills section with icons
-* Featured projects section
-* Contact section
-* Custom favicon
+- Modern dark theme design
+- Responsive layout for desktop and mobile
+- Smooth animations with Framer Motion
+- Animated background
+- Skills section with icons
+- Featured projects section
+- Contact section
+- Custom favicon
 
 ## Technologies Used
 
-* React
-* Vite
-* CSS
-* JavaScript
-* Framer Motion
-* React Icons
+- React
+- Vite
+- CSS
+- JavaScript
+- Framer Motion
+- React Icons
 
 ## Projects Featured
 
-* ScoreTicket
-* FinTrack
-* Ecommerce Full Stack API
+- ScoreTicket
+- FinTrack
+- Ecommerce Full Stack API
 
 ## Contact
 
-GitHub: https://github.com/Hussein-Gharib
+- GitHub: https://github.com/Hussein-Gharib
+- Portfolio: https://hussein-portfolio-drab.vercel.app/
 
 ## Getting Started
 
@@ -47,10 +48,3 @@ To run this project locally:
 ```bash
 npm install
 npm run dev
-```
-
-To create a production build:
-
-```bash
-npm run build
-```
