@@ -438,35 +438,6 @@
   color: #a78bfa;
 }
 
-/* CURRENTLY LEARNING */
-
-.learning-box {
-  margin-top: 46px;
-}
-
-.learning-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 18px;
-}
-
-.learning-card {
-  border-color: rgba(251, 191, 36, 0.28);
-}
-
-.learning-card .skill-icon {
-  color: #fbbf24;
-  filter: drop-shadow(0 0 16px rgba(251, 191, 36, 0.28));
-}
-
-.learning-card:hover {
-  border-color: rgba(251, 191, 36, 0.5);
-}
-
-.learning-card:hover .skill-icon {
-  color: #f59e0b;
-}
-
 /* PROJECTS */
 
 .projects-grid {
@@ -833,10 +804,6 @@
   .skills-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  .learning-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 @media (max-width: 650px) {
@@ -874,10 +841,6 @@
   }
 
   .skills-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .learning-grid {
     grid-template-columns: 1fr;
   }
 }
