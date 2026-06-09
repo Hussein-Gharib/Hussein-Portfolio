@@ -8,7 +8,12 @@ import {
   FaGitAlt,
   FaGithub,
 } from "react-icons/fa";
-import { SiExpress, SiMongodb, SiPostgresql } from "react-icons/si";
+import {
+  SiExpress,
+  SiMongodb,
+  SiPostgresql,
+  SiFirebase,
+} from "react-icons/si";
 
 function Skills() {
   const skills = [
@@ -23,6 +28,8 @@ function Skills() {
     { name: "Git", icon: <FaGitAlt /> },
     { name: "GitHub", icon: <FaGithub /> },
   ];
+
+  const learning = [{ name: "Firebase Backend", icon: <SiFirebase /> }];
 
   return (
     <motion.section
@@ -52,6 +59,26 @@ function Skills() {
             <span>{skill.name}</span>
           </motion.div>
         ))}
+      </div>
+
+      <div className="learning-box">
+        <p className="section-label">Currently Learning</p>
+
+        <div className="learning-grid">
+          {learning.map((skill) => (
+            <motion.div
+              className="skill-card learning-card"
+              key={skill.name}
+              initial={{ opacity: 0, y: 35 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.45 }}
+            >
+              <div className="skill-icon">{skill.icon}</div>
+              <span>{skill.name}</span>
+            </motion.div>
+          ))}
+        </div>
       </div>
     </motion.section>
   );
