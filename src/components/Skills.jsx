@@ -7,6 +7,7 @@ import {
   FaNodeJs,
   FaGitAlt,
   FaGithub,
+  FaPython,
 } from "react-icons/fa";
 import {
   SiExpress,
@@ -26,6 +27,7 @@ function Skills() {
     { name: "MongoDB", icon: <SiMongodb /> },
     { name: "PostgreSQL", icon: <SiPostgresql /> },
     { name: "Firebase", icon: <SiFirebase /> },
+    { name: "Python", icon: <FaPython /> },
     { name: "Git", icon: <FaGitAlt /> },
     { name: "GitHub", icon: <FaGithub /> },
   ];
