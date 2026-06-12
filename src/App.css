@@ -437,6 +437,24 @@
   transform: translateY(-4px) scale(1.08);
   color: #a78bfa;
 }
+.skill-icon-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skill-icon-group svg {
+  font-size: 2.1rem;
+}
+
+.skill-subtitle {
+  margin-top: 4px;
+  color: #f8fafc;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+}
 
 /* PROJECTS */
 
