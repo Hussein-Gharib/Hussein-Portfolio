@@ -15,6 +15,8 @@ import {
   SiPostgresql,
   SiFirebase,
   SiSass,
+  SiDocker,
+  SiJira,
 } from "react-icons/si";
 
 function Skills() {
@@ -30,6 +32,8 @@ function Skills() {
     { name: "PostgreSQL", icon: <SiPostgresql /> },
     { name: "Firebase", icon: <SiFirebase /> },
     { name: "Python", icon: <FaPython /> },
+    { name: "DevOps Tools", icon: <SiDocker /> },
+    { name: "Agile Methods", icon: <SiJira /> },
     { name: "Git", icon: <FaGitAlt /> },
     { name: "GitHub", icon: <FaGithub /> },
   ];

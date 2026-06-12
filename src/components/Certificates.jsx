@@ -6,7 +6,6 @@ function Certificates() {
     {
       title: "Web Development – Full Stack Developer",
       issuer: "IRAD Academy GmbH",
-      date: "November 2025",
       description:
         "Successfully completed a Full Stack Web Development program covering frontend development, backend development, databases, DevOps tools, and agile methodologies.",
     },
@@ -43,7 +42,6 @@ function Certificates() {
             <div>
               <h3>{certificate.title}</h3>
               <p className="certificate-issuer">{certificate.issuer}</p>
-              <p className="certificate-date">{certificate.date}</p>
               <p className="certificate-description">
                 {certificate.description}
               </p>
