@@ -14,12 +14,14 @@ import {
   SiMongodb,
   SiPostgresql,
   SiFirebase,
+  SiSass,
 } from "react-icons/si";
 
 function Skills() {
   const skills = [
     { name: "HTML", icon: <FaHtml5 /> },
     { name: "CSS", icon: <FaCss3Alt /> },
+    { name: "SCSS", icon: <SiSass /> },
     { name: "JavaScript", icon: <FaJs /> },
     { name: "React", icon: <FaReact /> },
     { name: "Node.js", icon: <FaNodeJs /> },
