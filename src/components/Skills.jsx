@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import {
   FaHtml5,
-  FaCss3Alt,
   FaJs,
   FaReact,
   FaNodeJs,
@@ -22,8 +21,7 @@ import {
 function Skills() {
   const skills = [
     { name: "HTML", icon: <FaHtml5 /> },
-    { name: "CSS", icon: <FaCss3Alt /> },
-    { name: "SCSS", icon: <SiSass /> },
+    { name: "CSS/SCSS", subtitle: "BEM", icon: <SiSass /> },
     { name: "JavaScript", icon: <FaJs /> },
     { name: "React", icon: <FaReact /> },
     { name: "Node.js", icon: <FaNodeJs /> },
@@ -64,6 +62,7 @@ function Skills() {
           >
             <div className="skill-icon">{skill.icon}</div>
             <span>{skill.name}</span>
+            {skill.subtitle && <small>{skill.subtitle}</small>}
           </motion.div>
         ))}
       </div>

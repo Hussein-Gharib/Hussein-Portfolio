@@ -921,3 +921,9 @@
     height: 52px;
   }
 }
+.skill-card small {
+  margin-top: 6px;
+  color: #94a3b8;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
