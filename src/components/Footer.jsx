@@ -16,7 +16,7 @@ function Footer() {
         </a>
 
         <a
-          href="YOUR_LINKEDIN_HERE"
+          href="https://www.linkedin.com/in/hussein-gharib-286411361/"
           target="_blank"
           rel="noreferrer"
           aria-label="LinkedIn"
