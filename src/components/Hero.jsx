@@ -10,7 +10,7 @@ function Hero() {
         transition={{ duration: 0.8 }}
       >
         <p className="hero-badge">
-          Available for Junior Developer Opportunities
+          <b>Available for Junior Developer Opportunities</b>
         </p>
 
         <h1>

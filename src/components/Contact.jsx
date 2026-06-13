@@ -13,7 +13,7 @@ function Contact() {
       transition={{ duration: 0.75 }}
     >
       <div className="contact-card">
-        <p className="section-label">Contact</p>
+        <p className="section-label"><b>Contact</b></p>
 
         <h2>Let’s build something great together</h2>
 

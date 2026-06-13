@@ -56,7 +56,7 @@ function Skills() {
       transition={{ duration: 0.75 }}
     >
       <div className="section-header">
-        <p className="section-label">Skills</p>
+        <p className="section-label"><b>Skills</b></p>
         <h2>Technologies I use to build full stack web applications</h2>
       </div>
 

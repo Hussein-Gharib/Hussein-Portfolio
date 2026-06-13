@@ -11,7 +11,7 @@ function About() {
       transition={{ duration: 0.75 }}
     >
       <div className="section-header">
-        <p className="section-label">About Me</p>
+        <p className="section-label"><b>About Me</b></p>
         <h2>From passion for IT to Full Stack Development</h2>
       </div>
 

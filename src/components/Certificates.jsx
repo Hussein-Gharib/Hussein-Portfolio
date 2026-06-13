@@ -21,7 +21,7 @@ function Certificates() {
       transition={{ duration: 0.75 }}
     >
       <div className="section-header">
-        <p className="section-label">Certificates</p>
+        <p className="section-label"><b>Certificates</b></p>
         <h2>Professional certificates and completed programs</h2>
       </div>
 

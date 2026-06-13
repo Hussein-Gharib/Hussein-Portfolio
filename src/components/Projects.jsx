@@ -58,7 +58,7 @@ function Projects() {
       transition={{ duration: 0.75 }}
     >
       <div className="section-header">
-        <p className="section-label">Projects</p>
+        <p className="section-label"><b>Projects</b></p>
         <h2>Featured projects that show my full stack development skills</h2>
       </div>
 
